@@ -3,15 +3,15 @@
 layout: home
 
 hero:
-  name: "My Awesome Project"
-  text: "A VitePress Site"
-  tagline: My great project tagline
+  name: "@mobilon-dev/chotto"
+  text: "UI-библиотека компонентов"
+  tagline: подходит для приложения чата на Vue3
   actions:
     - theme: brand
-      text: Markdown Examples
+      text: Начало работы
       link: /markdown-examples
     - theme: alt
-      text: API Examples
+      text: Компоненты
       link: /api-examples
 
 features:
