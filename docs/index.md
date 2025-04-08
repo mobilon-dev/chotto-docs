@@ -9,17 +9,17 @@ hero:
   actions:
     - theme: brand
       text: Начало работы
-      link: /markdown-examples
+      link: /get-started
     - theme: alt
-      text: Компоненты
-      link: /api-examples
+      text: Примеры
+      link: /examples
 
 features:
   - title: Feature A
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Гибкость
+    details: Можно легко настроить под необходимую задачу и функционал благодаря вложенной структуре Container > Layout, изменить оформелние на свой вкус и уместить на любом доступном пространстве в окне браузера.
+  - title: Шаблоны
+    details: Можно использовать шаблоны для быстрой отправки типовых сообщений, предусмотрена возможность заполнения адаптивных индивидуализированных шаблонов наподобие применяемых в WABA (прикрепление файла, кнопок быстрого ответа, заполнение полей). 
 ---
 
