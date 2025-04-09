@@ -12,7 +12,7 @@ hero:
       link: /get-started
     - theme: alt
       text: Примеры
-      link: /examples
+      link: /feed-chat
 
 features:
   - title: Темы
