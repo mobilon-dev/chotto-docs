@@ -52,5 +52,5 @@ export default defineConfig({
       next: 'Следующая страница'
     }
   },
-  base: '/vp-test/'
+  base: '/chotto-docs/'
 })
