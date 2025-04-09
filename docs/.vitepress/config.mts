@@ -20,7 +20,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Начало работы', link: '/get-started' },
-      { text: 'Примеры', link: '/examples' }
+      { text: 'Примеры', link: '/feed-chat' }
 
     ],
 
@@ -30,6 +30,7 @@ export default defineConfig({
         items: [
           { text: 'Начало работы', link: '/get-started' },
           { text: 'Компоненты', link: '/components' },
+          { text: 'Настройка темы', link: '/theme'}
         ],
       },
       {
@@ -45,7 +46,11 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/mobilon-dev/chotto' }
-    ]
+    ],
+    docFooter: {
+      prev: 'Предыдущая страница',
+      next: 'Следующая страница'
+    }
   },
   base: '/vp-test/'
 })

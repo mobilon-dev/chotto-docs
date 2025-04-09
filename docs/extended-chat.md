@@ -19,8 +19,7 @@ outline: deep
 
 ![Изображение](/extended.png)
 
-## Код типового чата в extended layout
-
+## Структура кода типового чата в extended layout
 
 ```vue
 <template>
@@ -35,17 +34,21 @@ outline: deep
       <template #second-col>
         <UserProfile />
         <ChatList />
+        <!--Поиск возможно разместить как во второй колонке-->
         <FeedSearch />
         <FeedFoundObjects/>
       </template>
 
       <template #third-col>
         <chat-wrapper >
-            
+
           <template #default>
             <ChatInfo>
-              <template #actions></template>
+              <template #actions>
+                <!--Ваши триггеры для различных событий-->
+              </template>
             </ChatInfo>
+            <!--Поиск возможно разместить так и в третьей колонке-->
             <FeedSearch />
             <FeedFoundObjects />
             <Feed />
@@ -56,13 +59,16 @@ outline: deep
                 <ButtonTemplateSelector />
                 <ButtonWabaTemplateSelector />
                 <ChannelSelector />
+                <!--Возможны дополнения-->
               </template>
             </ChatInput>
           </template>
 
           <template #chatpanel>
             <ChatPanel>
-              <template #content> </template>
+              <template #content>
+                <!--Ваш контент в сайд-панели-->  
+              </template>
             </ChatPanel>
           </template>
 
