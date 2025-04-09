@@ -19,8 +19,8 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Компоненты', link: '/get-started' },
-      { text: 'Демо', link: '/components' }
+      { text: 'Начало работы', link: '/get-started' },
+      { text: 'Примеры', link: '/examples' }
 
     ],
 
@@ -34,18 +34,17 @@ export default defineConfig({
       },
       {
         text: 'Примеры',
-        link: '/examples',
         items: [
-          { text: 'Чат в Feed Layout'},
-          { text: 'Чат в Base Layout'},
-          { text: 'Чат в Extended Layout'},
-          { text: 'Интерактивное демо'}
+          { text: 'Чат в Feed Layout', link: '/feed-chat'},
+          { text: 'Чат в Base Layout', link: '/base-chat'},
+          { text: 'Чат в Extended Layout', link: '/extended-chat'},
+          { text: 'Интерактивное демо', link: '/demo'}
         ]
       }
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/mobilon-dev/chotto' }
     ]
   },
   base: '/vp-test/'
