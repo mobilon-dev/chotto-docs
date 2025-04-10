@@ -45,7 +45,9 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/mobilon-dev/chotto' }
+      { icon: 'github', link: 'https://github.com/mobilon-dev/chotto' },
+      { icon: 'telegram', link: 'https://t.me/chottodev'}
+
     ],
     docFooter: {
       prev: 'Предыдущая страница',

@@ -13,6 +13,9 @@ hero:
     - theme: alt
       text: Примеры
       link: /feed-chat
+    - theme: alt
+      text: Storybook
+      link: https://mobilon-dev.github.io/chotto/
 
 features:
   - title: Темы
