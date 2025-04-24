@@ -43,7 +43,6 @@ export default defineConfig({
         ]
       }
     ],
-
     socialLinks: [
       { icon: 'github', link: 'https://github.com/mobilon-dev/chotto' },
       { icon: 'telegram', link: 'https://t.me/chottodev'}
@@ -52,7 +51,14 @@ export default defineConfig({
     docFooter: {
       prev: 'Предыдущая страница',
       next: 'Следующая страница'
-    }
+    },
+
+    outline: {
+      label:'На этой странице',
+      level: 'deep'
+    },
+    darkModeSwitchLabel: 'Оформление',
+    returnToTopLabel: 'Вернуться к началу',
   },
   base: '/chotto-docs/'
 })
