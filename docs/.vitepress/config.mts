@@ -30,7 +30,8 @@ export default defineConfig({
         items: [
           { text: 'Начало работы', link: '/get-started' },
           { text: 'Компоненты', link: '/components' },
-          { text: 'Настройка темы', link: '/theme'}
+          { text: 'Настройка темы', link: '/theme'},
+          { text: 'Стилизация по условию', link: '/user-styling'},
         ],
       },
       {
