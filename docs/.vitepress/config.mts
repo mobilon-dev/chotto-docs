@@ -42,6 +42,12 @@ export default defineConfig({
           { text: 'Чат в Extended Layout', link: '/extended-chat'},
           { text: 'Интерактивное демо', link: '/demo'}
         ]
+      },
+      {
+        text: 'Дополнительно',
+        items: [
+          { text: 'Список изменений', link: '/changelog' }
+        ]
       }
     ],
     socialLinks: [
