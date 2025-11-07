@@ -5,9 +5,15 @@ outline: deep
 
 # Стилизация компонентов по условию
 
-Некоторые компоненты библиотеки могут принимать в качестве входящего параметра applyStyle функцию, с помощью которой возможно применить пользовательский класс стилей. 
+Некоторые компоненты библиотеки могут принимать в качестве входящего параметра `applyStyle` функцию, с помощью которой возможно применить пользовательский класс стилей. 
 
-Для реализации такой возможности необходимо предусмотреть класс или множество классов в блоке style, располагаемом в файле, где собирается чат. Например, класс может выглядеть следующим образом:
+Для реализации такой возможности необходимо предусмотреть класс или множество классов в блоке `style`, располагаемом в файле, где собирается чат. 
+
+::: tip О переменных
+Переменные сообщений используют префикс `--chotto-theme-*` (например, `--chotto-theme-message-right-bg`). Переменные компонентов используют префикс `--chotto-componentname-*` (например, `--chotto-chat-input-icon-color`).
+:::
+
+Например, класс может выглядеть следующим образом:
 
 ::: warning Важно
 
@@ -18,9 +24,9 @@ outline: deep
 ``` vue
 <style>
 .tg-wrapper{
-  --chotto-message-right-bg: #DAF0FF;
-  --chotto-message-right-secondary-bg: #bce1fa;
-  --chotto-message-accent-line-color: #37AFE2;
+  --chotto-theme-message-right-bg: #DAF0FF;
+  --chotto-theme-message-right-secondary-bg: #bce1fa;
+  --chotto-theme-message-accent-line-color: #37AFE2;
   --chotto-chat-input-icon-color: #37AFE2;
 }
 </style>
@@ -119,33 +125,29 @@ const setMessageStyle = (message) => {
 
 <style>
 .tg-wrapper{
-  --chotto-message-right-bg: #DAF0FF;
-  --chotto-message-right-secondary-bg: #bce1fa;
-  --chotto-message-accent-line-color: #37AFE2;
+  --chotto-theme-message-right-bg: #DAF0FF;
+  --chotto-theme-message-right-secondary-bg: #bce1fa;
+  --chotto-theme-message-accent-line-color: #37AFE2;
   --chotto-chat-input-icon-color: #37AFE2;
 }
 
 .wa-wrapper{
-  --chotto-message-right-bg: #D9FDD3;
-  --chotto-message-right-secondary-bg: #bbf3b2;
-  --chotto-message-accent-line-color: #25D366;
+  --chotto-theme-message-right-bg: #D9FDD3;
+  --chotto-theme-message-right-secondary-bg: #bbf3b2;
+  --chotto-theme-message-accent-line-color: #25D366;
   --chotto-chat-input-icon-color: #25D366;
 }
 
-.wrapper{
-  --chotto-chat-input-button-padding: 5px;
-}
-
 .tg-message{
-  --chotto-message-right-bg: #DAF0FF;
-  --chotto-message-right-secondary-bg: #bce1fa;
-  --chotto-message-accent-line-color: #37AFE2;
+  --chotto-theme-message-right-bg: #DAF0FF;
+  --chotto-theme-message-right-secondary-bg: #bce1fa;
+  --chotto-theme-message-accent-line-color: #37AFE2;
 }
 
 .wa-message{
-  --chotto-message-right-bg: #D9FDD3;
-  --chotto-message-right-secondary-bg: #bbf3b2;
-  --chotto-message-accent-line-color: #25D366;
+  --chotto-theme-message-right-bg: #D9FDD3;
+  --chotto-theme-message-right-secondary-bg: #bbf3b2;
+  --chotto-theme-message-accent-line-color: #25D366;
 }
 </style>
 
